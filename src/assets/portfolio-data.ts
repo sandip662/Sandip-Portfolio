@@ -15,7 +15,7 @@ export const PORTFOLIO_DATA = {
      resume: '/cv/CV.pdf'
   },
 socials: {
-  linkedin: 'https://www.linkedin.com/in/Sandip-mondal-bb8789197/',
+  linkedin: 'https://www.linkedin.com/in/sandipmondal/',
   github: 'https://github.com/sandip662',
   email: 'mailto:sandipmondal9748@gmail.com'
 },
