@@ -8,6 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "engines": {
+  "node": "22.x"
+},
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
@@ -50,4 +53,5 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.9.2"
   }
+  
 }
