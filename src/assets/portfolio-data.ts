@@ -109,7 +109,7 @@ socials: {
   {
     company: 'Teknowledge Analytic Services Pvt. Ltd',
     role: 'Associate Software Developer',
-    duration: 'Jan 2024 - Present',
+    duration: 'May 2024 - Present',
     location: 'Kolkata, India',
        image: '/experiences/teknowledge.png',
        
