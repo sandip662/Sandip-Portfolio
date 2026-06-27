@@ -1,0 +1,52 @@
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="footer-top">
+
+      <h3>{{portfolio.personal.name}}</h3>
+
+      <p>{{portfolio.personal.role}}</p>
+
+    </div>
+
+    <div class="footer-links">
+
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="social-links">
+
+      <a
+        [href]="portfolio.socials.github"
+        target="_blank"
+        aria-label="GitHub">
+
+        <i class="bi bi-github"></i>
+      </a>
+
+      <a
+        [href]="portfolio.socials.linkedin"
+        target="_blank"
+        aria-label="LinkedIn">
+
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <p class="copyright">
+      © 2026 {{portfolio.personal.name}}. All Rights Reserved.
+    </p>
+
+  </div>
+
+</footer>

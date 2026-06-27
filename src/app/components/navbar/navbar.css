@@ -1,0 +1,64 @@
+.custom-navbar {
+  background: rgba(8, 10, 24, .75);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  padding: 16px 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.navbar-brand .bracket {
+  color: #a855f7;
+}
+
+.navbar-brand .slash {
+  color: #a855f7;
+}
+
+.nav-link {
+  color: #cbd5e1;
+  margin-left: 22px;
+  font-size: .95rem;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: #a855f7;
+}
+
+.social-item {
+  margin-left: 22px;
+}
+
+.social-link {
+  color: #e5e7eb;
+  font-size: 1.1rem;
+  transition: .3s;
+}
+
+.social-link:hover {
+  color: #a855f7;
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,.3);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+@media (max-width: 991px) {
+  .nav-link,
+  .social-item {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}

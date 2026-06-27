@@ -1,0 +1,47 @@
+<section id="skills">
+
+  <div class="container">
+
+    <span class="section-tag">&lt; SKILLS &gt;</span>
+
+    <h2 class="section-title">Skills</h2>
+
+    <p class="section-subtitle">
+      A collection of my technical skills and expertise honed through various projects and experiences
+    </p>
+
+    <div class="categories-grid">
+
+      @for(category of portfolio.skills; track category.category){
+
+      <div class="skill-category-card">
+
+        <h3>{{ category.category }}</h3>
+
+        <div class="skills-list">
+
+          @for(skill of category.items; track skill.name){
+
+          <div class="skill-pill">
+
+            <img
+              [src]="skill.image"
+              [alt]="skill.name">
+
+            <span>{{ skill.name }}</span>
+
+          </div>
+
+          }
+
+        </div>
+
+      </div>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>

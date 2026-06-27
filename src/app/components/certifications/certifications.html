@@ -1,0 +1,38 @@
+<section id="certifications">
+
+  <div class="container">
+
+    <div class="section-header">
+      <h2>CERTIFICATIONS</h2>
+      <p>Professional learning and achievements</p>
+    </div>
+
+    <div class="row">
+
+      @for(cert of portfolio.certifications; track cert.title){
+
+      <div class="col-lg-6 mb-4">
+
+        <div class="cert-card">
+
+          <img
+            [src]="cert.image"
+            [alt]="cert.title">
+
+          <h3>{{cert.title}}</h3>
+
+          <p>{{cert.issuer}}</p>
+
+          <span>{{cert.year}}</span>
+
+        </div>
+
+      </div>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>
