@@ -2,9 +2,9 @@ import { Skills } from "../app/components/skills/skills";
 
 export const PORTFOLIO_DATA = {
   personal: {
-    name: 'Swarup Mondal',
+    name: 'Sandip Mondal',
     role: '.NET Full Stack Developer',
-    email: 'swarupmondal662@gmail.com',
+    email: 'sandipmondal9748@gmail.com',
      phone: '+91  ',
     
     location: 'West Bengal, India',
@@ -15,9 +15,9 @@ export const PORTFOLIO_DATA = {
      resume: '/cv/CV.pdf'
   },
 socials: {
-  linkedin: 'https://www.linkedin.com/in/swarup-mondal-bb8789197/',
-  github: 'https://github.com/swarup662',
-  email: 'mailto:swarupmondal662@gmail.com'
+  linkedin: 'https://www.linkedin.com/in/Sandip-mondal-bb8789197/',
+  github: 'https://github.com/sandip662',
+  email: 'mailto:sandipmondal9748@gmail.com'
 },
   skills: [
   {
@@ -184,7 +184,7 @@ educations: [
     institution: 'Guru Nanak Institute of Technology',
     duration: '2019 - 2023',
     location: 'Kolkata, West Bengal',
-    score: 'CGPA: 8.31',
+    score: 'CGPA: 8.35',
     image: '/education/gnit.png'
   },
   {
